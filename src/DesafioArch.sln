@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicos", "Servicos", "{19FF4358-65D2-4F48-8405-B20CF136FDC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransacaoAPI", "Servicos\TransacaoAPI\TransacaoAPI.csproj", "{C7D0EAEF-F665-485A-B3A4-F11FC831D072}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7D0EAEF-F665-485A-B3A4-F11FC831D072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D0EAEF-F665-485A-B3A4-F11FC831D072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D0EAEF-F665-485A-B3A4-F11FC831D072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D0EAEF-F665-485A-B3A4-F11FC831D072}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7D0EAEF-F665-485A-B3A4-F11FC831D072} = {19FF4358-65D2-4F48-8405-B20CF136FDC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C21B2028-2334-44DB-BEB1-D50D37B909D0}
+	EndGlobalSection
+EndGlobal
