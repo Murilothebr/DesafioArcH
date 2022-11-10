@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicos", "Servicos", "{19FF4358-65D2-4F48-8405-B20CF136FDC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransacaoAPI", "Servicos\TransacaoAPI\TransacaoAPI.csproj", "{C7D0EAEF-F665-485A-B3A4-F11FC831D072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransacaoAPI", "Servicos\TransacaoAPI\TransacaoAPI.csproj", "{C7D0EAEF-F665-485A-B3A4-F11FC831D072}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
