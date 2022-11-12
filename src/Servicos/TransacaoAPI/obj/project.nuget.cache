@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XNNVVGXwY1hQxuf3hPf0xqSj/JtPY1CILHH0sEdy7lTQJXWHgnzctfFZG4kAre+j7BXFpLfLqO2KRMADgRoPVA==",
+  "dgSpecHash": "z7CgODeaiMC/UbsSDByrurW7kOewr8St6k/WukzENTcbaswcCspCmBv2Lxe7MAvOT08UrnPJ6UK4aKuqK66G7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\muril\\Documents\\GitHub\\DesafioArcH\\src\\Servicos\\TransacaoAPI\\TransacaoAPI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\muril\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\muril\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\muril\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\muril\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\muril\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\muril\\.nuget\\packages\\mongodb.bson\\2.18.0\\mongodb.bson.2.18.0.nupkg.sha512",
     "C:\\Users\\muril\\.nuget\\packages\\mongodb.driver\\2.18.0\\mongodb.driver.2.18.0.nupkg.sha512",

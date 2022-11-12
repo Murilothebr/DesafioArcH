@@ -1,0 +1,43 @@
+name: dockercompose12831757639143173609
+services:
+  mongodb_1:
+    container_name: mongodb_1
+    image: mongo
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "27017"
+      protocol: tcp
+    restart: always
+    volumes:
+    - type: volume
+      source: mongo_data
+      target: /data/db
+      volume: {}
+  transacaoapi:
+    build:
+      context: C:\Users\muril\Documents\GitHub\DesafioArcH\src
+      dockerfile: Servicos/TransacaoAPI/Dockerfile
+    container_name: Transacao.api
+    depends_on:
+      mongodb_1:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DatabaseSettings:ConnectionString: mongodb://mongodb_1:27017
+    image: transacaoapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose12831757639143173609_default
+volumes:
+  mongo_data:
+    name: dockercompose12831757639143173609_mongo_data

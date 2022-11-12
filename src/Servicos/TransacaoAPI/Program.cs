@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
  void ServicesConfig(IServiceCollection service) { 
+
     service.AddScoped<ICatalogContext, CatalogContext>();
     service.AddScoped<ITransactRepository, TransactRepository>();
 }

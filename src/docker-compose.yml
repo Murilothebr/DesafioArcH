@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  mongodb_1:
+    image: mongo
+    
+  transacaoapi:
+    image: ${DOCKER_REGISTRY-}transacaoapi
+    build:
+      context: .
+      dockerfile: Servicos/TransacaoAPI/Dockerfile
+
+
+volumes:
+  mongo_data:

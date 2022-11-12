@@ -5,5 +5,5 @@ namespace TransacaoAPI.Data;
 
 public interface ICatalogContext
 {
-    IMongoCollection<Transaction> transactions { get; }
+     public IMongoCollection<Transaction> Transact { get; }
 }

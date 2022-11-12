@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  mongodb_1:
+    container_name: mongodb_1
+    restart: always
+    ports:
+       - "27017:27017"
+    volumes:
+        - mongo_data:/data/db
+  transacaoapi:
+    container_name: Transacao.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "DatabaseSettings:ConnectionString=mongodb://mongodb_1:27017"
+    depends_on:
+      - mongodb_1
+    ports:
+      - "8000:80"

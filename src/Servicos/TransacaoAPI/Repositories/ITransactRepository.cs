@@ -8,7 +8,7 @@ namespace TransacaoAPI.Repositories
         Task<Transaction> GetTransaction(String ID);
 
         Task CreateTransaction(Transaction transaction);
-        Task<bool> UpdateProduct(Transaction transaction);
-        Task<bool> deleteProduct(String ID);
+        Task<bool> UpdateTransaction(Transaction transaction);
+        Task<bool> deleteTransaction(String ID);
     }
 }
